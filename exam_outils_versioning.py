@@ -6,7 +6,7 @@ import os
 GITHUB_USERNAME = 'alphamouhamadou'
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 REPO_NAME = 'exam_outils_versioning'
-DESCRIPTION = 'Ceci est un dépôt créé par l\'API Rest de Github.'
+DESCRIPTION = 'Ceci est un dépôt créé par l\'API Rest de Github'
 
 # URL de base pour l'API Github
 BASE_URL = 'https://api.github.com'

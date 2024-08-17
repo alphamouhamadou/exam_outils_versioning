@@ -1,9 +1,10 @@
 import requests
 from requests.auth import HTTPBasicAuth
+import os
 
 # Remplacez ces variables par vos informations personnelles
 GITHUB_USERNAME = 'alphamouhamadou'
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 REPO_NAME = 'exam_outils_versioning'
 DESCRIPTION = 'Ceci est un dépôt créé par l\'API Rest de Github.'
 
